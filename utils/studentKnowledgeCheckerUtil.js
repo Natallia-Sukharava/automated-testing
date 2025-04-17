@@ -27,3 +27,5 @@ function checkStudentKnowledge(studentAnswers, correctAnswers) {
 
   return true;
 }
+
+export default checkStudentKnowledge;
