@@ -6,7 +6,7 @@ describe('Array Utils', () => {
   });
 
   test('findMax throws if input is not array', () => {
-    expect(() => findMax(5)).toThrow("Input must be an array");
+    expect(() => findMax(5)).toThrow('Input must be an array');
   });
 
   test('findMin returns minimum value', () => {
@@ -14,7 +14,7 @@ describe('Array Utils', () => {
   });
 
   test('findMin throws if input is not array', () => {
-    expect(() => findMin("hello")).toThrow("Input must be an array");
+    expect(() => findMin('hello')).toThrow('Input must be an array');
   });
 
   test('removeDuplicates removes duplicates', () => {
@@ -22,6 +22,6 @@ describe('Array Utils', () => {
   });
 
   test('removeDuplicates throws if input is not array', () => {
-    expect(() => removeDuplicates(null)).toThrow("Input must be an array");
+    expect(() => removeDuplicates(null)).toThrow('Input must be an array');
   });
 });

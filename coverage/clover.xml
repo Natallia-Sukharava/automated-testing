@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1744916222211" clover="3.2.0">
-  <project timestamp="1744916222211" name="All files">
-    <metrics statements="48" coveredstatements="48" conditionals="32" coveredconditionals="32" methods="19" coveredmethods="19" elements="99" coveredelements="99" complexity="0" loc="48" ncloc="48" packages="1" files="5" classes="5"/>
+<coverage generated="1746476495865" clover="3.2.0">
+  <project timestamp="1746476495865" name="All files">
+    <metrics statements="49" coveredstatements="49" conditionals="32" coveredconditionals="32" methods="19" coveredmethods="19" elements="100" coveredelements="100" complexity="0" loc="49" ncloc="49" packages="1" files="5" classes="5"/>
     <file name="arrayUtils.js" path="/Users/natallia/Desktop/AT/practice_unit-main/utils/arrayUtils.js">
-      <metrics statements="9" coveredstatements="9" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
+      <metrics statements="10" coveredstatements="10" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
       <line num="3" count="2" type="cond" truecount="2" falsecount="0"/>
       <line num="4" count="1" type="stmt"/>
       <line num="6" count="1" type="stmt"/>
-      <line num="10" count="2" type="cond" truecount="2" falsecount="0"/>
-      <line num="11" count="1" type="stmt"/>
-      <line num="13" count="1" type="stmt"/>
-      <line num="17" count="2" type="cond" truecount="2" falsecount="0"/>
-      <line num="18" count="1" type="stmt"/>
-      <line num="20" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="11" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="18" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
     </file>
     <file name="mathUtils.js" path="/Users/natallia/Desktop/AT/practice_unit-main/utils/mathUtils.js">
       <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>

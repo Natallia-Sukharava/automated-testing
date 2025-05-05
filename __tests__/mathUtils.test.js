@@ -18,6 +18,6 @@ describe('Math Utils', () => {
   });
 
   test('divide throws on division by zero', () => {
-    expect(() => divide(10, 0)).toThrow("Cannot divide by zero");
+    expect(() => divide(10, 0)).toThrow('Cannot divide by zero');
   });
 });

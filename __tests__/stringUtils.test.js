@@ -6,7 +6,7 @@ describe('String Utils', () => {
   });
 
   test('capitalize throws on non-string input', () => {
-    expect(() => capitalize(123)).toThrow("Input must be a string");
+    expect(() => capitalize(123)).toThrow('Input must be a string');
   });
 
   test('reverseString reverses the string', () => {
@@ -14,7 +14,7 @@ describe('String Utils', () => {
   });
 
   test('reverseString throws on non-string input', () => {
-    expect(() => reverseString(null)).toThrow("Input must be a string");
+    expect(() => reverseString(null)).toThrow('Input must be a string');
   });
 
   test('isPalindrome returns true for palindrome', () => {
@@ -26,6 +26,6 @@ describe('String Utils', () => {
   });
 
   test('isPalindrome throws on non-string input', () => {
-    expect(() => isPalindrome({})).toThrow("Input must be a string");
+    expect(() => isPalindrome({})).toThrow('Input must be a string');
   });
 });

@@ -117,3 +117,14 @@ $RECYCLE.BIN/
 coverage/
 report/
 
+node_modules/
+
+# Logs
+npm-debug.log*
+*.log
+
+# Mac / IDE / Editor
+.DS_Store
+.idea/
+.vscode/
+
