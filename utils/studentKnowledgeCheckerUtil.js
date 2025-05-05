@@ -19,7 +19,7 @@ function checkStudentKnowledge(studentAnswers, correctAnswers) {
     }
   }
 
-  for (let key of studentKeys) {
+  for (const key of studentKeys) {
     if (studentAnswers[key] !== correctAnswers[key]) {
       return false;
     }
@@ -27,3 +27,5 @@ function checkStudentKnowledge(studentAnswers, correctAnswers) {
 
   return true;
 }
+
+export default checkStudentKnowledge;
